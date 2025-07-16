@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div className="main-container">
-      <h1 className="title">🎬 Movie Matcher</h1>
+      <h1 className="title">Movie Matcher</h1>
 
       <div className="form-container">
         <input
@@ -43,7 +43,7 @@ function App() {
           <h2> Recommended Movies</h2>
           <ul>
             {recommendations.map((rec, index) => (
-              <li key={index}>🎥 {rec}</li>
+              <li key={index}> {rec}</li>
             ))}
           </ul>
         </div>
